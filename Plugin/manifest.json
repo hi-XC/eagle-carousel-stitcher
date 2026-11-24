@@ -1,0 +1,31 @@
+{
+  "id": "01a1c5f4-4ab2-4db0-9d49-98273bcd41f2",
+  "version": "0.3.0",
+  "platform": "all",
+  "arch": "all",
+  "name": "{{manifest.app.name}}",
+  "logo": "logo.png",
+  "keywords": [
+    "image",
+    "stitch",
+    "carousel"
+  ],
+  "devTools": false,
+  "main": {
+    "url": "index.html",
+    "width": 920,
+    "height": 732,
+    "resizable": true,
+    "frame": false,
+    "minWidth": 700,
+    "minHeight": 560
+  },
+  "fallbackLanguage": "en",
+  "languages": [
+    "en",
+    "zh_CN"
+  ],
+  "dependencies": [
+    "ffmpeg"
+  ]
+}

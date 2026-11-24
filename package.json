@@ -1,0 +1,12 @@
+{
+  "name": "eagle-carousel-stitcher",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild Plugin/app.js --bundle --platform=node --format=cjs --target=node16 --outfile=Plugin/dist/app.js",
+    "test": "node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.19.12"
+  }
+}
